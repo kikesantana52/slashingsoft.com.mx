@@ -1,0 +1,1 @@
+# slashingsoft.com.mx
