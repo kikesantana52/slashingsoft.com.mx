@@ -1,0 +1,27 @@
+Express
+
+
+==================================
+Inicializar
+
+var express = require("express");
+var app = express();
+
+==================================
+imprimir en pantalla simple segun la ruta
+
+app.get("/",function(req,res){
+   //req = request
+   //res = result
+   res.send("HELLO");
+});
+
+
+===================================
+imprimir en pantalla con un template
+
+app.get("/",function(req,res){
+   //req = request
+   //res = result
+   res.render("HELLO");
+});
